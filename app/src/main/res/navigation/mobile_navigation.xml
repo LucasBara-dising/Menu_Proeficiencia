@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.menu_proeficiencia.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_bd_interno"
+        android:name="com.example.menu_proeficiencia.ui.bd_intern.GalleryFragment"
+        android:label="@string/menu_banco_de_dados_interno"
+        tools:layout="@layout/fragment_bd_interno" />
+
+    <fragment
+        android:id="@+id/nav_bd_externo"
+        android:name="com.example.menu_proeficiencia.ui.bd_externo.GalleryFragment"
+        android:label="@string/menu_banco_de_dados_externo"
+        tools:layout="@layout/fragment_bd_externo" />
+
+    <fragment
+        android:id="@+id/nav_acesso_api"
+        android:name="com.example.menu_proeficiencia.ui.api.GalleryFragment"
+        android:label="@string/menu_acesso_com_api"
+        tools:layout="@layout/fragment_acesso_api" />
+
+    <fragment
+        android:id="@+id/nav_acesso_geolocalizacao"
+        android:name="com.example.menu_proeficiencia.ui.geo.GalleryFragment"
+        android:label="@string/menu_acesso_a_geolocalizacao"
+        tools:layout="@layout/fragment_nav_acesso_geolocalizacao" />
+
+    <fragment
+        android:id="@+id/nav_acesso_camera"
+        android:name="com.example.menu_proeficiencia.ui.camera.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_acesso_camera" />
+
+    <fragment
+        android:id="@+id/nav_acesso_jogos"
+        android:name="com.example.menu_proeficiencia.ui.jogos.GalleryFragment"
+        android:label="@string/menu_jogos"
+        tools:layout="@layout/fragment_acesso_jogos" />
+</navigation>

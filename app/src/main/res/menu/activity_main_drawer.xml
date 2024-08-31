@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_bd_interno"
+            android:title="@string/menu_banco_de_dados_interno" />
+        <item
+            android:id="@+id/nav_bd_externo"
+            android:title="@string/menu_banco_de_dados_externo" />
+
+        <item
+            android:id="@+id/nav_acesso_api"
+            android:title="@string/menu_acesso_com_api" />
+
+        <item
+            android:id="@+id/nav_acesso_geolocalizacao"
+            android:title="@string/menu_acesso_a_geolocalizacao" />
+
+        <item
+            android:id="@+id/nav_acesso_camera"
+            android:title="@string/menu_camera" />
+
+        <item
+            android:id="@+id/nav_acesso_jogos"
+            android:title="@string/menu_jogos" />
+    </group>
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Menu_Proeficiencia</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_banco_de_dados_interno">Banco de Dados Interno</string>
+    <string name="menu_banco_de_dados_externo">Banco de Dados Externo</string>
+    <string name="menu_acesso_com_api">Acesso com API</string>
+    <string name="menu_acesso_a_geolocalizacao">Acesso a Geolocalização</string>
+    <string name="menu_camera">Câmera</string>
+    <string name="menu_jogos">Jogos</string>
+</resources>
